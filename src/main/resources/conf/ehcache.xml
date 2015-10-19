@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+	updateCheck="false">
+	<cache name="starCache"  
+	    maxElementsInMemory="3"
+	    maxElementsOnDisk="0"  
+	    eternal="false"  
+	    overflowToDisk="false"  
+	    diskPersistent="false"  
+	    timeToIdleSeconds="0"  
+	    timeToLiveSeconds="180"
+	    diskSpoolBufferSizeMB="50"  
+	    diskExpiryThreadIntervalSeconds="120"  
+	    memoryStoreEvictionPolicy="FIFO"  
+    /> 
+</ehcache>

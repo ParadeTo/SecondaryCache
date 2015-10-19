@@ -1,0 +1,12 @@
+.settings
+target
+.classpath
+.project
+.idea/
+*.iml
+*.ipr
+*.iws
+data/
+*.log
+.idea
+SecondaryCache.iml

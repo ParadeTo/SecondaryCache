@@ -1,0 +1,2 @@
+# SecondaryCache
+基于ehcache、redis实现的二级缓存系统，用akka实现服务器间缓存数据变化后的通信
